@@ -122,10 +122,4 @@
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\Demo\Demo.csproj">
-      <Project>{D3F11C9E-20A0-49D8-A19D-CC61CB361B9C}</Project>
-      <Name>Demo</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
