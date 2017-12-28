@@ -13,7 +13,7 @@ namespace Demo
 		{
 			InitializeComponent();
 
-			MainPage = new Demo.MainPage();
+			MainPage =new BetterNavigation.CustomNavigationPage(new Demo.MainPage());
 		}
 
 		protected override void OnStart ()
