@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BetterNavigation</id>
+    <version>0.0.1</version>
+    <authors>TingtingAn</authors>
+    <owners>TingtingAn</owners>
+    <projectUrl>https://github.com/TingtingAn/BetterNavigation</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin.Forms better navigation, it makes android title center</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Xamarin.Forms</tags>
+  </metadata>
+<files>
+     	<!-- portable -->
+    	<file src="BetterNavigation\bin\Debug\netstandard2.0\BetterNavigation.dll"  target="lib\portable-net45+win8+wpa81\BetterNavigation.dll" />
+
+     	<!-- android -->
+    	<file src="BetterNavigation.Droid\bin\Release\BetterNavigation.Droid.dll"  target="lib\MonoAndroid10\BetterNavigation.Droid.dll" />
+
+    	<!-- iOSUnified -->
+    	<file src="BetterNavigation.iOS\bin\Release\BetterNavigation.iOS.dll"  target="lib\Xamarin.iOS10\BetterNavigation.iOS.dll" />
+     </files>
+</package>
