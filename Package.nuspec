@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>BetterNavigation</id>
-    <version>0.0.1</version>
+    <version>0.0.1.1</version>
     <authors>TingtingAn</authors>
     <owners>TingtingAn</owners>
     <projectUrl>https://github.com/TingtingAn/BetterNavigation</projectUrl>
@@ -11,10 +11,6 @@
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Xamarin.Forms</tags>
-    <dependencies>
-        
-	<dependency id="Xamarin.Forms" version>="2.5.0.121934" />
-    </dependencies>
   </metadata>
 <files>
      	<!-- portable -->

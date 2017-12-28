@@ -25,9 +25,9 @@ namespace BetterNavigation.Droid
 {
     public class CustomNavigationPageRenderer : NavigationPageRenderer
     {
-        public CustomNavigationPageRenderer(Context context) : base(context)
-        {
-        }
+        //public CustomNavigationPageRenderer(Context context) : base(context)
+        //{
+        //}
         Android.Support.V7.Widget.Toolbar _toolbar;
         LinearLayout _titleViewLayout;
         LinearLayout _leftMenuLayout;
