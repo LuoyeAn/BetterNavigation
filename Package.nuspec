@@ -11,6 +11,10 @@
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Xamarin.Forms</tags>
+    <dependencies>
+        
+	<dependency id="Xamarin.Forms" version>="2.5.0.121934" />
+    </dependencies>
   </metadata>
 <files>
      	<!-- portable -->
